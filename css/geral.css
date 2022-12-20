@@ -1,0 +1,17 @@
+body {
+  font-family: "Vollkorn", Georgia, serif;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.footer {
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+  padding: 1.875rem;
+}
