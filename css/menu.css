@@ -28,3 +28,15 @@
 .header li + li {
   margin-left: 1.875rem;
 }
+
+@media (max-width: 760px) {
+  .header {
+    grid-template-columns: auto;
+  }
+  .header nav a {
+    font-size: 1rem;
+  }
+  .header li + li {
+    margin-left: 0.625rem;
+  }
+}
