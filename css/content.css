@@ -7,10 +7,6 @@
   gap: 1.875rem;
 }
 
-.col-wide {
-  grid-column: 1 / -1;
-}
-
 .img-1 {
   grid-row: span 2;
   align-self: end;
@@ -20,15 +16,17 @@
   align-self: end;
 }
 
-p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-  letter-spacing: -0.005rem;
-  color: rgba(0, 0, 0, 0.7);
-}
-
 .informacoes p + p {
   margin-top: 1.875rem;
+}
+
+.anuncios {
+  background: #fafbfc;
+  display: grid;
+  align-content: start;
+  padding: 1.875rem;
+  gap: 1.875rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 .titulo {
