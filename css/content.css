@@ -54,6 +54,7 @@ p {
 
 .citacao,
 .atributos {
+  align-self: start;
   padding: 1.875rem;
   border-radius: 0.3125rem;
   box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
